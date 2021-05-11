@@ -1,0 +1,18 @@
+set_io buttons_on[0] 2
+set_io buttons_on[1] 46
+set_io buttons_on[2] 47
+set_io buttons_on[3] 45
+set_io buttons_on[4] 48
+set_io buttons_on[5] 3
+set_io buttons_on[6] 4
+set_io buttons_on[7] 44
+
+set_io wave_switch_button 35
+
+set_io test_out[5] 28
+set_io test_out[4] 38
+set_io test_out[3] 42
+set_io test_out[2] 36
+set_io test_out[1] 43
+set_io test_out[0] 34
+set_io button_on 2

@@ -1,0 +1,5 @@
+ osc_num := 0
+         for (button_index in buttons):
+             if rising_edge(buttons[button_index):
+                 osc_freqs[osc_num] := button_freqs[button_index]
+                 osc_num += 1

@@ -1,0 +1,32 @@
+rate units is:
+
+(phase proportion * (samples per phase)) / clock tick
+
+
+Hz units is:
+
+(phase proportion) / second
+
+
+what's the phase proportion per clock tick?
+it is:
+
+(cycles / second) * (seconds in a clock tick).
+
+
+so,
+
+frequency * (seconds in a clock tick)
+
+
+
+frequency * (seconds in a clock tick) =
+frequency * (1 / clock frequency) =
+frequency / clock frequency.
+
+
+so the rate is i guess
+
+
+frequency / clock frequency * samples per phase
+
