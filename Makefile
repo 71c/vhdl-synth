@@ -1,12 +1,12 @@
-PROJ = mix
-MAIN_ENTITY = mix
+PROJ = mix2
+MAIN_ENTITY = mix2
 FLAGS = --std=08
 
 PIN_DEF = leds.pcf
 DEVICE = up5k
 PACKAGE = sg48
 
-VHDLS = note2freq.vhdl mix.vhdl osc.vhdl wave.vhdl button_debouncer.vhdl
+VHDLS = note2freq.vhdl mix2.vhdl osc.vhdl wave.vhdl button_debouncer.vhdl
 
 all: $(PROJ).bin
 

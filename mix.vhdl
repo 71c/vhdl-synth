@@ -71,7 +71,9 @@ architecture synth of mix is
 
     signal output_wave : signed(15 downto 0);
 
-    signal button_freqs : MIDI_NOTE_ARRAY := (7d"69", 7d"70", 7d"71", 7d"72", 7d"73", 7d"74", 7d"75", 7d"76");
+    -- signal button_freqs : MIDI_NOTE_ARRAY := (7d"69", 7d"70", 7d"71", 7d"72", 7d"73", 7d"74", 7d"75", 7d"76");
+    -- signal button_freqs : MIDI_NOTE_ARRAY := (7d"36", 7d"40", 7d"43", 7d"48", 7d"52", 7d"55", 7d"60", 7d"64");
+    signal button_freqs : MIDI_NOTE_ARRAY := (7d"60", 7d"62", 7d"64", 7d"65", 7d"67", 7d"69", 7d"71", 7d"72"); -- C major scale
 
     signal osc1_wave_type : unsigned(1 downto 0) := 2b"00";
 
